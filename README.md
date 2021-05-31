@@ -15,3 +15,7 @@ Then run 'bash create_tifs.sh' to transform the jpg to tif
 Then run 'python3 model_run.py --testpatients BC23450 --pred_root output/ --epochs 1 --model densenet121' to training the model
 
 Then run  'python3 visualize.py output/1.npz --gene FASN' to generate the gene figure for specific patient images (BC23450) and specific gene (FASN)
+
+
+
+The dataset can be downloaded from https://drive.google.com/file/d/1wEOWvP6SOj8jHnQEGtr9xs1XuscPDPWw/view?usp=sharing.
